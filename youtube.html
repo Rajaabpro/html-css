@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-        YouTube.com
-    </title>
+    <title>YouTube.com</title>
     <style>
       .thumnail {
         width: 300px;
         display: block;
       }
       .search-bar {
-        display: block;        
+        display: block;
       }
-      .video-title{
+      .video-title {
         width: 300px;
       }
-      .video-preview{
+      .video-preview {
         width: 300px;
         display: inline-block;
         vertical-align: top;
         margin-right: 10px;
       }
+      .channel-picture {
+        display: inline-block;
+      }
+      .video-info {
+        display: inline-block;
+      }
     </style>
   </head>
   <body>
-    <input class="search-bar" type="text" 
-    placeholder="search" />
+    <input class="search-bar" type="text" placeholder="search" />
     <div class="video-preview">
+      <div>
         <img class="thumnail" src="thumnails/hq720.avif" />
-        <p class="video-title">
-            Talking Tech 
-            <strong> 
-                and AI with Google
-            </strong> 
-            CEO Sundar Pichai!
-        </p>
-        <p class="video-author">
-            Marques Brownlee
-        </p>
-        <p>
-            1.9B views
-        </p>
-    </div>
-    <div class="video-preview">
+      </div>
+      <div>
+        <div class="channel-pictures">
+          <img src="channel-pictures/Talha.jpg" />
+        </div>
+        <div class="vedio-info">
+          <p class="video-title">
+            Talking Techand AI wit Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p>1.9B views</p>
+        </div>
+      </div>
+      <div class="video-preview">
         <img class="thumnail" src="thumnails/Atif aslim.avif" />
         <p class="video-title">
           Umeedon Ki Borderless World Season 1 | Ep #2
-            <strong> 
-              | Atif Aslam |
-            </strong> 
-            
+          <strong> | Atif Aslam | </strong>
         </p>
-        <p class="video-author">
-            Atif Aslam
-        </p>
-        <p>
-            9.9B views &#183; 1 day ago
-        </p>
+        <p class="video-author">Atif Aslam</p>
+        <p>9.9B views &#183; 1 day ago</p>
+      </div>
     </div>
   </body>
 </html>
