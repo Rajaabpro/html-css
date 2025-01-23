@@ -2,7 +2,14 @@
 <html>
   <head>
     <title>YouTube.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+      p{
+        font-family: Roboto, Arial;
+      }
       .thumnail {
         width: 300px;
         display: block;
@@ -11,7 +18,9 @@
         display: block;
       }
       .video-title {
-        width: 300px;
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight: 500;
       }
       .video-preview {
         width: 300px;
@@ -21,21 +30,31 @@
       }
       .channel-picture {
         display: inline-block;
+        width: 50px;
+        vertical-align: top;
       }
       .video-info {
         display: inline-block;
+        width: 200px;
+      }
+      .profile-picture {
+        width: 40px;
+        border-radius: 30px;
+      }
+      .thumnail-row{
+        margin-bottom: 10px;
       }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="search" />
     <div class="video-preview">
-      <div>
+      <div class="thumnail-row">
         <img class="thumnail" src="thumnails/hq720.avif" />
       </div>
       <div>
-        <div class="channel-pictures">
-          <img src="channel-pictures/Talha.jpg" />
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/Talha.jpg" />
         </div>
         <div class="vedio-info">
           <p class="video-title">
