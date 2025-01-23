@@ -1,92 +1,118 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>YouTube.com</title>
+    <title>YouTube.com Clone</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <style>
       p {
         font-family: Roboto, Arial;
         margin-top: 0;
         margin-bottom: 0;
       }
-      .thumnail {
+
+      .thumbnail {
         width: 300px;
         display: block;
       }
+
       .search-bar {
         display: block;
       }
+
       .video-title {
-        margin-top: 0px;
+        margin-top: 0;
         font-size: 14px;
         font-weight: 500;
         line-height: 20px;
         margin-bottom: 12px;
       }
+
       .video-preview {
         width: 300px;
         display: inline-block;
         vertical-align: top;
-        margin-right: 10px;
+        margin-right: 15px;
       }
+
       .channel-picture {
         display: inline-block;
         width: 50px;
         vertical-align: top;
       }
+
       .video-info {
         display: inline-block;
         width: 200px;
       }
+
       .profile-picture {
         width: 40px;
-        border-radius: 30px;
+        border-radius: 50px;
       }
-      .thumnail-row {
-        margin-bottom: 10px;
+
+      .thumbnail-row {
+        margin-bottom: 12px;
       }
+
       .video-author,
       .video-stats {
         font-size: 12px;
         color: rgb(96, 96, 96);
-        .video-author {
-          margin-bottom: 4px;
-        }
+      }
+
+      .video-author {
+        margin-bottom: 4px;
       }
     </style>
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="search" />
+    <input class="search-bar" type="text" placeholder="Search">
+
     <div class="video-preview">
-      <div class="thumnail-row">
-        <img class="thumnail" src="thumnails/hq720.avif" />
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumnails/Atif aslim.avif">
       </div>
       <div>
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-pictures/Talha.jpg" />
+          <img class="profile-picture" src="channel-pictures/Atif.jpg">
         </div>
-        <div class="vedio-info">
+        <div class="video-info">
           <p class="video-title">
-            Talking Techand AI wit Google CEO Sundar Pichai!
+            Talking Tech and AI with Google CEO Sundar Pichai!
           </p>
-          <p class="video-author">Marques Brownlee</p>
-          <p>1.9B views</p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
         </div>
       </div>
-      <div class="video-preview">
-        <img class="thumnail" src="thumnails/Atif aslim.avif" />
-        <p class="video-title">
-          Umeedon Ki Borderless World Season 1 | Ep #2
-          <strong> | Atif Aslam | </strong>
-        </p>
-        <p class="video-author">Atif Aslam</p>
-        <p>9.9B views &#183; 1 day ago</p>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumnails/hq720.avif">
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/Talha.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p>
+        </div>
       </div>
     </div>
   </body>
