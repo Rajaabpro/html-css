@@ -12,6 +12,7 @@
         font-family: Roboto, Arial;
         margin-top: 0;
         margin-bottom: 0;
+        cursor: pointer;
       }
 
       .thumbnail {
@@ -37,16 +38,9 @@
         vertical-align: top;
         margin-right: 15px;
       }
-
-      .channel-picture {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
-
-      .video-info {
-        display: inline-block;
-        width: 200px;
+      .videoinfo-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
 
       .profile-picture {
@@ -76,11 +70,10 @@
       <div class="thumbnail-row">
         <img class="thumbnail" src="thumnails/Atif aslim.avif">
       </div>
-      <div>
+      <div class="video-info-gird">
         <div class="channel-picture">
           <img class="profile-picture" src="channel-pictures/Atif.jpg">
-        </div>
-        <div class="video-info">
+        </div><div class="video-info">
           <p class="video-title">
             Talking Tech and AI with Google CEO Sundar Pichai!
           </p>
@@ -98,11 +91,11 @@
       <div class="thumbnail-row">
         <img class="thumbnail" src="thumnails/hq720.avif">
       </div>
-      <div>
+      <div class="video-info">
         <div class="channel-picture">
           <img class="profile-picture" src="channel-pictures/Talha.jpg">
         </div>
-        <div class="video-info">
+        <div class="video-info-gird">
           <p class="video-title">
             Try Not To Laugh Challenge #9
           </p>
