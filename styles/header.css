@@ -65,6 +65,11 @@
     padding-bottom: 4px;
     padding-left: 8px;
     padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    
+
     
 }
 .voice-search-button{
